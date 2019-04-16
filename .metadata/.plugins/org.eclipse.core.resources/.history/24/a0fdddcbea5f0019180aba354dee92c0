@@ -8,8 +8,8 @@ import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.response.Response;
 import com.jayway.restassured.specification.RequestSpecification;
 
-public class PostUsersAPITests {
-	
+public class DeleteUserAPITests {
+
 	Response response;
 
 	//Setup operations
@@ -19,17 +19,9 @@ public class PostUsersAPITests {
 		RestAssured.baseURI = URLConstants.BASE_URL; //Setup Base URI
 		RequestSpecification httpRequest = RestAssured.given();
 		httpRequest.header("Content-Type", "application/json");
-		
-		// Create new JSON Object with user properties for Id, username and password
-        JsonObject addUsers = new JsonObject();
-        addUsers.addProperty("ID", 15);
-        addUsers.addProperty("UserName", "TestUser");
-        addUsers.addProperty("Password", "Test123");
-        
-        httpRequest.body(addUsers.toString()); //convert the json object to string
-        
-        //do the Post request
-        response = httpRequest.post("/api/Users");
+
+        //do the delete request
+        response = httpRequest.delete("/api/Users/3");
         
 		
 	}
@@ -38,7 +30,7 @@ public class PostUsersAPITests {
 			@Test
 			public void T01_StatusCodeTest() {
 				int statusCode = response.getStatusCode(); //getting the response code
-		        System.out.println("Status code for post:" +statusCode);
+		        System.out.println("Status code for delete:" +statusCode);
 		        String json = response.asString(); //printing the json returned after adding the new user after converting it to a string
 				System.out.println("Json results: " +json);
 			}
