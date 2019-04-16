@@ -1,0 +1,56 @@
+package com.RESTapiTests.RestApiTests;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import com.jayway.restassured.http.ContentType;
+import com.jayway.restassured.path.json.JsonPath;
+import com.jayway.restassured.response.Response;
+
+public class GetBooksByID {
+	
+	private static Response res = null; //Response object
+	private static JsonPath jp = null; //JsonPath object
+
+	//Setup operations
+	@Before
+	public void setup() {
+
+		RestUtils.setBaseURI(URLConstants.BASE_URL); //Setup Base URI
+		RestUtils.setBasePath(URLConstants.BASE_PATH_BOOKS); //Setup Base Path
+		RestUtils.setContentType(ContentType.JSON); //Setup Content Type
+		RestUtils.createSearchQueryPathBooksIDSearchAPI("Books", "10"); //Construct the path with a book id = 10 as default
+		responsePathSetUp();
+	}
+
+	public static void responsePathSetUp() {
+		res = RestUtils.getResponse(); //Get response
+		jp = RestUtils.getJsonPath(res); //Get JsonPath
+	}
+
+	
+	//checking the 200 response with all correct parameters
+		@Test
+		public void T01_StatusCodeTest() {
+			HelperMethods.checkStatus200(res);
+		}	
+		
+	//Checking for 404 not found for an Id not valid
+		@Test
+		public void T02_StatusCodeCheckNotFound() {
+			RestUtils.createSearchQueryPathBooksIDSearchAPI("Books", "900"); //Passing 900 as ID which does not exists
+			responsePathSetUp();
+			HelperMethods.checkStatus404(res, jp);		
+		}
+		
+		
+		@After
+		public void afterTest (){
+			//Reset Values
+			RestUtils.resetBaseURI();
+			RestUtils.resetBasePath();
+		}
+	
+
+}

@@ -186,3 +186,75 @@
 2019-04-15 18:28:20,557 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/main/resources
 2019-04-15 18:28:20,557 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-04-15 18:28:20,557 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/test/resources
+2019-04-15 18:33:51,540 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 18:33:51,540 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/main/resources
+2019-04-15 18:33:51,541 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 18:33:51,541 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/test/resources
+2019-04-15 18:39:35,970 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 18:39:35,970 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/main/resources
+2019-04-15 18:39:35,971 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 18:39:35,971 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/test/resources
+2019-04-15 18:40:48,396 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 18:40:48,396 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/main/resources
+2019-04-15 18:40:48,397 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 18:40:48,397 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/test/resources
+2019-04-15 18:50:05,321 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 18:50:05,321 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/main/resources
+2019-04-15 18:50:05,322 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 18:50:05,322 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/test/resources
+2019-04-15 18:50:19,897 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 18:50:19,897 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/main/resources
+2019-04-15 18:50:19,898 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 18:50:19,898 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/test/resources
+2019-04-15 18:50:47,961 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 18:50:47,962 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/main/resources
+2019-04-15 18:50:47,962 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 18:50:47,962 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/test/resources
+2019-04-15 18:53:19,001 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 18:53:19,002 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/main/resources
+2019-04-15 18:53:19,002 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 18:53:19,002 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/test/resources
+2019-04-15 18:55:48,433 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 18:55:48,433 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/main/resources
+2019-04-15 18:55:48,434 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 18:55:48,434 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/test/resources
+2019-04-15 18:56:04,906 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 18:56:04,906 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/main/resources
+2019-04-15 18:56:04,907 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 18:56:04,907 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/test/resources
+2019-04-15 18:56:39,409 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 18:56:39,409 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/main/resources
+2019-04-15 18:56:39,410 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 18:56:39,410 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/test/resources
+2019-04-15 18:57:59,059 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 18:57:59,059 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/main/resources
+2019-04-15 18:57:59,059 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 18:57:59,060 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/test/resources
+2019-04-15 19:03:48,392 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 19:03:48,393 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/main/resources
+2019-04-15 19:03:48,393 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 19:03:48,393 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/test/resources
+2019-04-15 19:05:21,387 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 19:05:21,387 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/main/resources
+2019-04-15 19:05:21,387 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 19:05:21,387 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/test/resources
+2019-04-15 19:06:35,088 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 19:06:35,088 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/main/resources
+2019-04-15 19:06:35,089 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 19:06:35,089 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/test/resources
+2019-04-15 19:06:54,102 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 19:06:54,103 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/main/resources
+2019-04-15 19:06:54,103 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 19:06:54,103 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/test/resources
+2019-04-15 19:08:28,592 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 19:08:28,593 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/main/resources
+2019-04-15 19:08:28,593 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 19:08:28,593 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/test/resources
+2019-04-15 19:08:58,104 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 19:08:58,104 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/main/resources
+2019-04-15 19:08:58,105 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 19:08:58,105 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/test/resources
+2019-04-15 19:09:50,238 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 19:09:50,238 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/main/resources
+2019-04-15 19:09:50,238 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-15 19:09:50,238 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sachin/Documents/RESTApiTests/RestApiTests/src/test/resources

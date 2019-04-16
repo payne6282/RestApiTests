@@ -1,0 +1,69 @@
+package com.RESTapiTests.RestApiTests;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import com.jayway.restassured.http.ContentType;
+import com.jayway.restassured.path.json.JsonPath;
+import com.jayway.restassured.response.Response;
+
+public class GetBooksByID {
+
+	private static Response res = null; //Response object
+	private static JsonPath jp = null; //JsonPath object
+
+	//Setup operations
+	@Before
+	public void setup() {
+
+		RestUtils.setBaseURI(URLConstants.BASE_URL); //Setup Base URI
+		RestUtils.setBasePath(URLConstants.BASE_PATH_BOOKS); //Setup Base Path
+		RestUtils.setContentType(ContentType.JSON); //Setup Content Type
+		RestUtils.createSearchQueryPathBooksIDSearchAPI("Books", "10"); //Construct the path with a book id = 10 as default
+		responsePathSetUp();
+	}
+
+	public static void responsePathSetUp() {
+		res = RestUtils.getResponse(); //Get response
+		jp = RestUtils.getJsonPath(res); //Get JsonPath
+	}
+
+	//checking the 200 response with all correct parameters
+	@Test
+	public void T01_StatusCodeTest() {
+		HelperMethods.checkStatus200(res);
+	}	
+
+	//Checking for 404 not found for an Id not valid. Example id = 900 which does not exists
+	@Test
+	public void T02_StatusCodeCheckNotFound() {
+		RestUtils.createSearchQueryPathBooksIDSearchAPI("Books", "900"); //Passing 900 as ID which does not exists
+		responsePathSetUp();
+		HelperMethods.checkStatus404(res, jp);		
+	}
+
+	//Checking for 400 invalid for an Id. Example - id = abc
+	@Test
+	public void T03_StatusCodeCheckInvalid() {
+		RestUtils.createSearchQueryPathBooksIDSearchAPI("Books", "abc"); //Passing abc as ID which is invalid
+		responsePathSetUp();
+		HelperMethods.checkStatus400(res, jp);		
+	}
+
+	//Checking if the page count is correct for the book id = 10 (Data validity check)
+	@Test
+	public void T04_pageCountCheck() {
+		HelperMethods.checkPageCountForParticularID(jp);
+	}	
+
+	//Tear down tests
+	@After
+	public void afterTest (){
+		//Reset Values
+		RestUtils.resetBaseURI();
+		RestUtils.resetBasePath();
+	}
+
+
+}

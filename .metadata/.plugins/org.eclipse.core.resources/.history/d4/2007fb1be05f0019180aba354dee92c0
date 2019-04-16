@@ -38,10 +38,6 @@ public class RestUtils {
 	public static void createSearchQueryPathBooksAPI(String name) {
 		path = name;
 	}
-	
-	public static void createSearchQueryPathBooksIDSearchAPI(String name, String id) {
-		path = name + "/" + id;
-	}
 
 	//Returning the path of the API
 	public static Response getResponse() {
