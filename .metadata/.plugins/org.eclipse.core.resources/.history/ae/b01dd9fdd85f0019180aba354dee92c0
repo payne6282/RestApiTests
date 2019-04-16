@@ -1,0 +1,23 @@
+package com.RESTapiTests.RestApiTests;
+
+import static org.junit.Assert.assertEquals;
+
+import com.jayway.restassured.path.json.JsonPath;
+import com.jayway.restassured.response.Response;
+
+public class HelperMethods {
+	
+	//Verify the http response status returned. Check Status Code is 200.
+		public static void checkStatus200(Response res) {
+			assertEquals("Status Check Failed!", 200, res.getStatusCode());
+		}
+		
+		public static void checkJsonValueValidity(JsonPath jp) {
+			String nameCheck = jp.getString("Title");
+			assertEquals("Wrong movie name", nameCheck , jp.get("Title"));
+		}
+
+
+
+}
+ 	

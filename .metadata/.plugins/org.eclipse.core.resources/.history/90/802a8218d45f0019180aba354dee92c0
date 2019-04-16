@@ -1,0 +1,10 @@
+package com.RESTapiTests.RestApiTests;
+
+public class Constants {
+	
+	/* Contains the constants like URLs */
+
+	static String BASE_URL = "https://fakerestapi.azurewebsites.net"; //Base URL
+	static String BASE_PATH_BOOKS = "/api/Books"; //Base URL
+
+}

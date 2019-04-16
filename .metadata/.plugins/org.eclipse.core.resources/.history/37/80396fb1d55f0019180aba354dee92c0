@@ -1,0 +1,14 @@
+package com.RESTapiTests.RestApiTests;
+
+import static org.testng.Assert.assertEquals;
+
+import com.jayway.restassured.response.Response;
+
+public class HelperMethods {
+	
+	//Verify the http response status returned. Check Status Code is 200.
+		public static void checkStatus200(Response res) {
+			assertEquals("Status Check Failed!", 200, res.getStatusCode());
+		}
+
+}

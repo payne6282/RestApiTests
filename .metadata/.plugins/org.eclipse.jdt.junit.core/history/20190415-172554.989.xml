@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="GetBooksTests" project="RestApiTests" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.RESTapiTests.RestApiTests.GetBooksTests" time="3.536">
+    <testcase name="T01_StatusCodeTest" classname="com.RESTapiTests.RestApiTests.GetBooksTests" time="3.536"/>
+  </testsuite>
+</testrun>

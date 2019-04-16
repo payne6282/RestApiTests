@@ -1,0 +1,31 @@
+package com.RESTapiTests.RestApiTests;
+
+import static org.junit.Assert.assertEquals;
+
+import java.util.List;
+
+import com.jayway.restassured.path.json.JsonPath;
+import com.jayway.restassured.response.Response;
+
+public class HelperMethods {
+	
+	//Verify the http response status returned. Check Status Code is 200.
+		public static void checkStatus200(Response res) {
+			assertEquals("Status Check Failed!", 200, res.getStatusCode());
+		}
+		
+		//Check wrong value response. Example - Wrong path sent
+		public static void checkStatus404(Response res, JsonPath jp) {
+			//404 should be expected for not found
+			assertEquals("Expected wrong params", 404, res.getStatusCode());
+		}
+		
+		public static void checkCorrectTitle(JsonPath jp) {
+			List<String> title = jp.get("Title"); //Adding the Title in a list
+			String TitleCheck = title.get(0); //
+			assertEquals("The title is not correct", "Book 2", TitleCheck); //asserting the title = Book 1
+		}
+
+
+}
+ 	
