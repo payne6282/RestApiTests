@@ -35,7 +35,7 @@ public class HelperMethods {
 
 	//checking whether the book returned from a particular id has the correct page count
 	public static void checkPageCountForParticularID(JsonPath jp) {
-		int pageCount = jp.get("PageCount"); //Adding the page count to a int variable
+		int pageCount = jp.get("PageCount"); //Adding the page count to a string
 		assertEquals("The page count is incorrect for that particular id", 1000, pageCount); //asserting the page count for the id
 	}
 

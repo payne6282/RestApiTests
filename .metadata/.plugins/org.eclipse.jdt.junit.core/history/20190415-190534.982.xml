@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="GetBooksByID" project="RestApiTests" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="com.RESTapiTests.RestApiTests.GetBooksByID" time="7.373">
+    <testcase name="T02_StatusCodeCheckNotFound" classname="com.RESTapiTests.RestApiTests.GetBooksByID" time="3.299"/>
+    <testcase name="T01_StatusCodeTest" classname="com.RESTapiTests.RestApiTests.GetBooksByID" time="1.012"/>
+    <testcase name="T02_StatusCodeCheckInvalid" classname="com.RESTapiTests.RestApiTests.GetBooksByID" time="1.988"/>
+    <testcase name="T01_pageCountCheck" classname="com.RESTapiTests.RestApiTests.GetBooksByID" time="1.074"/>
+  </testsuite>
+</testrun>
